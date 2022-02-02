@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "record-management-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recordManagement/RecordManagementWebPart.js",
+          "manifest": "./src/webparts/recordManagement/RecordManagementWebPart.manifest.json"
+        }
+      ]
+    },
+    "physical-location-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/physicalLocation/PhysicalLocationWebPart.js",
+          "manifest": "./src/webparts/physicalLocation/PhysicalLocationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RecordManagementWebPartStrings": "lib/webparts/recordManagement/loc/{locale}.js",
+    "PhysicalLocationWebPartStrings": "lib/webparts/physicalLocation/loc/{locale}.js"
+  }
+}

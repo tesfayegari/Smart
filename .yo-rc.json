@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "onprem19",
+    "version": "1.12.1",
+    "libraryName": "smart",
+    "libraryId": "e369eb7b-307c-4afd-8e3a-c06ba3f4ef39",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
